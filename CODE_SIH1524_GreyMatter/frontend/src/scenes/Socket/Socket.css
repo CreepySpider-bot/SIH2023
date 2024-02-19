@@ -1,0 +1,56 @@
+.traffic-container {
+  height: 300px; /* Adjust the height as needed */
+  overflow-y: auto;
+  border: none;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.table-row{
+  border-color: rgb(117, 111, 111);
+
+}
+
+.table {
+  width: 100%;
+}
+
+.table-header {
+  background-color: #19517c;
+  padding:12px;
+  border-radius: 50px,0px;
+  display: flex;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+.column {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-body {
+  overflow-y: auto;
+  height: calc(100% - 30px); /* Subtract header height */
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+button{
+  background-color: #e67d4c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 40%;
+  padding: 20px;
+  margin-bottom: 15px;
+}
